@@ -1,0 +1,32 @@
+/*
+
+Calculation for dog years
+   - The first two human years of a dog's life count as 10.5 dog years each.
+   - Each human year following counts as 4 dog years.
+
+*/
+
+// my real age
+let myAge = 27;
+
+// early dog years
+let earlyYears = 2;
+
+// calculating early dog years
+earlyYears *= 10.5;
+
+// later dog years
+let laterYears = myAge - 2;
+
+// calculating later dog years
+laterYears *= 4;
+
+// adding early and later dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+// my name
+let myName = 'Super';
+myName = myName.toLowerCase();
+
+// print out my age in dog years
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
